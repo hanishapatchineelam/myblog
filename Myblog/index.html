@@ -16,9 +16,10 @@
 </head>
 
 <body>
+
     <header>
         <div class="container-fluid p-0">
-            <nav class="navbar navbar-expand-lg  style=" background-color: #e3f2fd;">
+            <nav class="navbar navbar-expand-lg  style=" background-color: #e3f2fd;>
                 <a class="navbar-brand" href="#">
                     <i class="fas fa-book-reader fa-2x mx-3"></i>Hanisha</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -44,11 +45,11 @@
                             <div class="dropdown">
                                 <a href="#" class="nav-link">SKILLS</a>
                                 <div class="dropdown-content">
-                                    <a href="#">HTML</a>
+                                    <a href="../Myblog/html/index.html">HTML</a>
                                     <a href="#">CSS</a>
                                     <a href="#">BOOTSTRAP</a>
-                                    <a href="#">JAVASCRIPT</a>
-                                    <a href="#">ANGULAR</a>
+                                    <a href="../Myblog/javascript/javascript.html">JAVASCRIPT</a>
+                                    <a href="../Myblog/Angular/index.html">ANGULAR</a>
                                 </div>
                             </div>
                         </li>
@@ -193,55 +194,129 @@
                             </div>
 
                         </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                    <h5 class="card-title">Project4</h5>
+                                </div>
+                                <p class="card-text">
+                                    With supporting text below as a natural lead-in.
+                                </p>
+                                <div class="project1">
+                                    <h3>Angular</h3>
+                                    <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">View Now</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                    <h5 class="card-title">Project5</h5>
+                                </div>
+                                <p class="card-text">
+                                    With supporting text below as a natural lead-in.
+                                </p>
+                                <div class="project1">
+                                    <h3>React</h3>
+                                    <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">View Now</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                    <h5 class="card-title">Project6</h5>
+                                </div>
+                                <p class="card-text">
+                                    With supporting text below as a natural lead-in.
+                                </p>
+                                <div class="project1">
+                                    <h3>Node.js</h3>
+                                    <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">View Now</a>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+        </div>
+        <h1>Skillset</h1>
+        <div class="jumbotron">
+            <h3>Add New skills:</h3>
+            <form id="skillInputForm">
+                <div class="form-group">
+                    <label for="skillDescInput">Description</label>
+                    <input type="text" class="form-control" id="skillDescInput"
+                        placeholder="Describe the skill you know ...">
+                </div>
+                <div class="form-group">
+                    <label for="skillLevelInput">Level</label>
+                    <select id="skillLevelInput" class="form-control">
+                        <option value="Low">Low</option>
+                        <option value="Medium">Medium</option>
+                        <option value="High">High</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="skillsecuredToInput">secured</label>
+                    <input type="text" class="form-control" id="skillsecuredToInput"
+                        placeholder="Enter responsibility ...">
+                </div>
+                <button type="submit" class="btn btn-primary">Add</button>
+            </form>
+        </div>
+        <div class="col-lg-12">
+            <div id="skillsList">
+            </div>
+        </div>
 
 
 
     </main>
-    <footer>
-        <div class="container-fluid p-0">
-            <div class="row text-left">
-                <div class="col-md-5 col-sm-5">
-                    <h4 class="text-light">About Me</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maxime ea
-                        similique illum corrupti</p>
-                    <p class="pt-4 text-muted">Copyright ©2019 All rights reserved | This template is made with by
-                        <span> Blog by Hanisha</span>
-                    </p>
+    <!-- Contact -->
+    <section class="contact">
+        <h1 class="contact-heading">Contact Us</h1>
+        <form class="contact-form center">
+            <div class="input-group">
+                <label>Full Name *</label>
+                <input type="text" class="contact-input" placeholder="Enter Your Name" />
+            </div>
+            <div class="input-groups">
+                <div class="input-group">
+                    <label>Email *</label>
+                    <input type="email" class="contact-input" placeholder="Enter Your Email" />
                 </div>
-                <div class="col-md-5 col-sm-12">
-                    <h4 class="text-light">Newsletter</h4>
-                    <p class="text-muted">Stay Updated</p>
-                    <form class="form-inline">
-                        <div class="col pl-0">
-                            <div class="input-group pr-5">
-                                <input type="text" class="form-control bg-dark text-white"
-                                    id="inlineFormInputGroupUsername2" placeholder="Email">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text">
-                                        <i class="fas fa-arrow-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-md-2 col-sm-12">
-                    <h4 class="text-light">Follow me</h4>
-                    <p class="text-muted">Let us be social</p>
-                    <div class="column text-light">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-youtube"></i>
-                    </div>
+                <div class="input-group">
+                    <label>Phone</label>
+                    <input type="text" class="contact-input" placeholder="Enter Phone Number" />
                 </div>
             </div>
+            <div class="input-group">
+                <label>Message</label>
+                <textarea class="form-textarea" placeholder="Your Message Here..."></textarea>
+            </div>
+            <input type="submit" value="Submit" class="form-btn" />
+        </form>
+    </section>
+    <!-- End of Contact -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-list">
+            <a href="#" class="footer-link">Home</a>
+            <a href="#" class="footer-link">Tours</a>
+            <a href="#" class="footer-link">About Us</a>
+            <a href="#" class="footer-link">Offer</a>
+            <a href="#" class="footer-link">Contact</a>
         </div>
+        <p class="footer-paragraph">
+            Copyright &copy; Hanisha All Rights Reserved
+        </p>
     </footer>
+    <!-- End of Footer -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
